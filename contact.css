@@ -1,0 +1,63 @@
+body{
+    margin: 5vw;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+.griv{
+    backdrop-filter: blue(10px);
+    border: #452c63 2px solid;
+    color: 452c63;
+    display: flex;
+    justify-content: space-around;
+   border-radius: 20px;
+    }
+    #contactus{
+        background-color: #452c63;
+        color: whitesmoke;
+        width: 12rem;
+        height: 10rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        font-size: 1.6rem;
+        border-radius: 15px;
+        position: relative;
+        left: -4vw;
+        top: -4.5vh;
+    }
+    #contactForm{
+        position: relative;
+        right: 8vw;
+        padding: 12vh 6vw;
+        line-height: 3vh;
+        
+    }
+    #contactForm input{
+        background-color: #E8F0FE;
+        border-radius: 8px;
+        width: 15vw;
+        height: 3.5vh;
+        text-align: center;
+        margin-left: 1vw;
+        color: rgb(6, 6, 6);
+    }
+    #contactForm textarea{
+        background-color: #E8F0FE;
+        border-radius: 8px;
+        width: 15vw;
+        height: 14vh;
+        text-align: center;
+        margin-left: 1vw;
+        color: rgb(6, 6, 6);
+        text-align: start;
+        padding-left: 1rem;
+    }
+    #contactForm button{
+       width: 6vw;
+       height: 6vh;
+       border-radius: 15px;
+       font-size: 1.1rem;
+       background-color: rgb(180, 211, 237);
+    }
+    
